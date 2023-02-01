@@ -1,0 +1,67 @@
+
+html {
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: #000; 
+    background: #ff0;
+}
+
+h1 {
+    font-weight: normal;
+    margin: auto;
+    background: white;
+    line-height: 2.5em;
+}
+
+div.wrapper {
+    background-color: white;
+    overflow: auto;
+}
+
+p1 {
+    margin: 1em 1em;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 5700px;
+    border: 2px solid darkcyan;
+}
+    
+    h1 {
+        width: 79%;
+        padding-left: 1%;
+    }
+
+    aside h2 {
+        font-weight: mormal;
+        margin: 1am;
+        font-size: 14;
+    }
+
+    aside h3 {
+        font-weight: mormal;
+        margin: 1am;
+        font-size: 14;
+    }
+
+    aside h4 {
+        font-weight: mormal;
+        margin: 1am;
+        font-size: 14;
+    }
+
+    ul {
+       list-style-type: none;
+       padding: 2;   
+    }
+    
+    
+}
