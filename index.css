@@ -58,10 +58,30 @@ iframe {
         font-size: 14;
     }
 
-    ul {
-       list-style-type: none;
-       padding: 2;   
+    nav ul li{
+        display:inline;
+        margin: 50px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .lists li{
+        display:list-item;
+        list-style-type:circle;
+        margin:0%;
+        padding:0%;
     }
     
+    images.artist {
+        width: 50%;
+        float: right;
+        margin-right:16em;
+    }
     
+    images.artist {
+        width: 160px;
+        margin-top:5px;
+        margin-bottom: 20px;  
+    }
+      
 }
