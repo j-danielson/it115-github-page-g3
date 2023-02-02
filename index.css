@@ -73,13 +73,13 @@ iframe {
         padding:0%;
     }
     
-    images.artist {
+    img.artist {
         width: 50%;
         float: right;
         margin-right:16em;
     }
     
-    images.artist {
+    img.artist {
         width: 160px;
         margin-top:5px;
         margin-bottom: 20px;  
