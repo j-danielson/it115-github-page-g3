@@ -40,49 +40,70 @@ iframe {
         padding-left: 1%;
     }
 
+    aside {
+        width: 30%;
+    }
+
     aside h2 {
-        font-weight: mormal;
-        margin: 1am;
+        font-weight: normal;
+        margin: 1em;
         font-size: 14;
     }
 
     aside h3 {
-        font-weight: mormal;
-        margin: 1am;
+        font-weight: normal;
+        margin: 1em;
         font-size: 14;
     }
 
     aside h4 {
-        font-weight: mormal;
-        margin: 1am;
+        font-weight: normal;
+        margin: 1em;
         font-size: 14;
+    }
+
+    #menu {
+        text-align: center;
     }
 
     nav ul li{
         display:inline;
         margin-top: 10px;
         margin-bottom: 40px;
-        margin-right: 110;
-   
+        margin-right: 110px;
     }
 
-    .lists li{
+    a {
+        text-decoration: none;
+    }
+
+    li{
         display:list-item;
         list-style-type:circle;
         margin:0%;
         padding:0%;
     }
     
-    img.artist {
+    img {
         width: 50%;
-        float: right;
+        /* float: right; */
         margin-right:16em;
     }
     
-    img.artist {
+    img {
         width: 160px;
         margin-top:5px;
         margin-bottom: 20px;  
     }
       
+.album-section {
+    display: flex;
+    flex-flow: row;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+section {
+    margin-right: 20px;
+    width: 60%
 }
